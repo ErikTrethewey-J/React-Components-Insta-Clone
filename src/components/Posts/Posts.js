@@ -10,7 +10,7 @@ const Posts = (props) => {
     <div className='posts-container-wrapper'>
       {/* Map through the posts array returning a Post component at each iteration */}
       {
-      posts.comment.map((comment) => {
+      Post.posts.map((comment) => {
         return {comment};
       }
       
